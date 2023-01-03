@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cr-vx</title>
+    <link>https://cr-vx.github.io/</link>
+    <description>Recent content on cr-vx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 01 Jan 2023 06:35:14 +0000</lastBuildDate><atom:link href="https://cr-vx.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About the AI in FB: All Bullets Pointin&#39;</title>
+      <link>https://cr-vx.github.io/blog/fb/abouttheai/</link>
+      <pubDate>Sun, 01 Jan 2023 06:35:14 +0000</pubDate>
+      
+      <guid>https://cr-vx.github.io/blog/fb/abouttheai/</guid>
+      <description>In this post I talk about the design and implementation of the enemy AI.
+Why FSM Our project had a tight 9 week deadline, the main goal being a released product on Steam by the end of the semester and something that we can be proud of.
+Therefore after knowing all critical challenges, and considerations of the AI&amp;rsquo;s required functionality.
+I decided that basic FSM is the best option due to its simplicity.</description>
+    </item>
+    
+    <item>
+      <title>Scrum Mastering</title>
+      <link>https://cr-vx.github.io/blog/fb/scrum/</link>
+      <pubDate>Sun, 01 Jan 2023 06:35:14 +0000</pubDate>
+      
+      <guid>https://cr-vx.github.io/blog/fb/scrum/</guid>
+      <description>⚠️This is not the right place to learn about what Scrum is. This only covers my experience as a Scrum Master for a small group.
+One key thing to note in this project is the overlap in roles; our product owner was also one of the developers, which made the project run smoothly. Due to them being able to closely follow the progress and this definitely helps with communication.
+Leading Agile At the start of the project, the question arose of who wanted to be the Scrum Master.</description>
+    </item>
+    
+    <item>
+      <title>Project Planning &amp; Rules for FB: All Bullets Pointin&#39;</title>
+      <link>https://cr-vx.github.io/blog/fb/fbdesign/</link>
+      <pubDate>Sun, 01 Jan 2023 06:33:52 +0000</pubDate>
+      
+      <guid>https://cr-vx.github.io/blog/fb/fbdesign/</guid>
+      <description>In this post I am talking about the key rules we came up with when starting the project.
+Quick Background When I joined the project there was already a demo of the game with GitHub setup. The code was code dirty due to being written in one week of time.
+However, the reason for this was understandable. Our projects had to go through a super short prototyping phase. In just one week, we had to come up with an idea and build a prototype to present to others for voting on which ideas should be pursued for further development.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://cr-vx.github.io/about/</link>
+      <pubDate>Sat, 10 Dec 2022 23:39:48 +0200</pubDate>
+      
+      <guid>https://cr-vx.github.io/about/</guid>
+      <description>I am constantly seeking opportunities to grow and develop, both personally and professionally.
+Here you can find more about my latest work &amp;amp; public projects.
+In my blog, I cover more about my work related to different topics if possible.
+While my current focus is on Unity, I have also worked with other major game engines. I am always looking for ways to expand my skills and knowledge, whether it be through experimenting with new tools or seeking out educational resources.</description>
+    </item>
+    
+    <item>
+      <title>Fingerbang: All Bullets Pointin&#39;</title>
+      <link>https://cr-vx.github.io/gallery/fb/</link>
+      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cr-vx.github.io/gallery/fb/</guid>
+      <description>Your browser does not support the video tag.In this project, my biggest task was to implemented FSM-based* enemy AI. The key part was to create a challenging and enjoyable experience for the player.
+Which required that the enemy AI must be designed to move and shoot intelligently, while also keeping in mind the enemy&amp;rsquo;s low health and the player&amp;rsquo;s long shooting range.
+You can learn more about the development in my blog &amp;ndash; there&amp;rsquo;s also a post about my time as a scrum master.</description>
+    </item>
+    
+  </channel>
+</rss>
