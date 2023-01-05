@@ -153,7 +153,7 @@ https://cr-vx.github.io/logoSmall-96x.png 96w" alt="Home">
 <p>Our project had a tight 9 week deadline, the main goal being a released product on Steam by the end of the semester and something that we can be proud of.<br>
 Therefore after knowing all critical challenges, and considerations of the AI&rsquo;s required functionality.<br>
 I decided that basic FSM is the best option due to its simplicity. Also, we didn&rsquo;t need too many different states for the AI, which would help prevent the design from becoming overly complex.</p>
-<p>Before starting to code anything. I created a diagram of the state loops, so I would have something more visual to use as a reference while creating the AI. This would help me in the future to debug in case of any issues, and potentially help others who want to work with the AI.</p>
+<p>Before starting to code anything. I created a diagram of the state loops, so I would have something more visual to use as a reference while programming the AI. This would help me in the future to debug in case of any issues, and potentially help others who want to work with the AI.</p>
 
 
 
@@ -222,8 +222,12 @@ https://cr-vx.github.io/diagram-1920x.png 1920w" alt="Cleaned up version of the 
 
 <h2 id="the-code">The Code</h2>
 <p>First I created the core loop for the states.<br>
-To handle the variables that enable state switches in the AI, I created a script called <code>enemyAwareness</code> which uses <code>raycast</code>s and <code>spherecast</code>s to detect the target.<br>
+To handle the variables that enable switches between the states, I created a script called <code>enemyAwareness</code> which uses <code>raycast</code>s and <code>spherecast</code>s to detect the target.<br>
 This allows the movement and shooting scripts to only receive the target&rsquo;s position as an argument if the target is detected by the AI.</p>
+<p>In a somewhat bad practice, I wrote all the different states in the same FSM script.<br>
+However, I split these states in their own regions ex: <code>#region ATTACK</code>. So, refactoring all these states into their own scripts isn&rsquo;t too complicated or time consuming.<br>
+I misjudged the amount of code I would have in the script and ended up using this approach.<br>
+This is the only script that I feel a little bit bad about, since everything else I did was tidy and compact.</p>
 <h3 id="optimization">Optimization</h3>
 <p>The performance of the AI was significantly impacted in one of our levels due to the large number of enemies and the multiple <code>raycast</code> being used.<br>
 To improve the performance, I implemented 2 optimization techniques.</p>
@@ -327,7 +331,7 @@ https://cr-vx.github.io/sphereCast-1920x.png 1920w" alt="Example of the gizmos">
 When the target shot, it placed a <code>DrawWireSphere</code> at that exact position. This position also serves as the point of interest for the AI to inspect.<br>
 This helped to visually confirm that the AI was functioning correctly in all scenarios.</p>
 <p><em>The game code is not currently available to the public because we are still actively working on it and it contains proprietary files.</em></p>
-<p>If you have something to ask my contact information are in the footer, or alternative you can use the contact form on this website.</p>
+<p>If you have any questions, my contact information is in the footer, or alternative you can use the contact form on this website.</p>
 
           </article>
 
