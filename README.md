@@ -1,3 +1,4 @@
-# cr-vx.github.io
+# My Personal Portfolio / Blog Site
 
-⚠ Work in progress ⚠
+Made using extended [Hugo](https://gohugo.io/)  
+Theme based on [Osprey Delight](https://github.com/kdevo/osprey-delight) with some added `scss` modifications and shortcodes.
