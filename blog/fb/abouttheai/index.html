@@ -260,7 +260,7 @@ This included:</p>
 <li>A sphere around the AI to showcase their hearing range</li>
 <li><code>DrawSphere</code> &amp; <code>DrawWireSphere</code> to show case line of sight &amp; other direction related casts</li>
 </ul>
-<p>&ldquo;In the picture, the pink <code>spherecast</code> represents the line of sight to the target. The size of the sphere shows the &ldquo;eye sharpness,&rdquo; or how much nearby objects block the vision. The red <code>spherecast</code> is used to check if there is another AI in front of us. To avoid issues where the AI shoots too close to each other, we found that making the red <code>spherecast</code> slightly larger was the most effective solution.</p>
+<p>In the picture, the pink <code>spherecast</code> represents the line of sight to the target. The size of the sphere shows the &ldquo;eye sharpness,&rdquo; or how much nearby objects block the vision. The red <code>spherecast</code> is used to check if there is another AI in front of us. To avoid issues where the AI shoots too close to each other, we found that making the red <code>spherecast</code> slightly larger was the most effective solution.</p>
 
 
 
@@ -332,6 +332,75 @@ When the target shot, it placed a <code>DrawWireSphere</code> at that exact posi
 This helped to visually confirm that the AI was functioning correctly in all scenarios.</p>
 <p><em>The game code is not currently available to the public because we are still actively working on it and it contains proprietary files.</em></p>
 <p>If you have any questions, my contact information is in the footer, or alternative you can use the contact form on this website.</p>
+<hr class="horizontal-line" style="width: 55%; height: 1px; background-color: #d4a518; margin: 0 auto;">
+<p><em>EDIT2023/01/5</em> : <em>The latest version of Unity includes a built-in debugger for rays that can potentially make the gizmo drawing for rays quite unnecessary.</em><br>
+<em>However, I am unaware if it supports features such as spherecasts or the ability to draw shaped gizmos on collision points as I haven&rsquo;t had the opportunity to test it out yet.</em></p>
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+<picture>
+  <source type="image/webp"
+            srcset="https://cr-vx.github.io/rayDebug-120x%20Gaussian.webp" height="1683" width="1920" data-sizes="auto" data-srcset="https://cr-vx.github.io/rayDebug-470x.webp 470w,
+https://cr-vx.github.io/rayDebug-820x.webp 820w,
+https://cr-vx.github.io/rayDebug-1170x.webp 1170w,
+https://cr-vx.github.io/rayDebug-1520x.webp 1520w,
+https://cr-vx.github.io/rayDebug-1920x.webp 1920w">
+    
+
+
+<noscript>
+        
+
+
+
+<img src="https://cr-vx.github.io/rayDebug-1920x.png"
+class="" loading="lazy" height="1683" width="1920" srcset="https://cr-vx.github.io/rayDebug-470x.png 470w,
+https://cr-vx.github.io/rayDebug-820x.png 820w,
+https://cr-vx.github.io/rayDebug-1170x.png 1170w,
+https://cr-vx.github.io/rayDebug-1520x.png 1520w,
+https://cr-vx.github.io/rayDebug-1920x.png 1920w" alt="New ray debug feature in latest Unity version.">
+    </noscript><img
+        src="https://cr-vx.github.io/rayDebug-120x%20Gaussian.png"
+    data-src="https://cr-vx.github.io/rayDebug-1920x.png" 
+    class="blur-up lazyload" 
+ height="1683" width="1920" data-sizes="auto" data-srcset="https://cr-vx.github.io/rayDebug-470x.png 470w,
+https://cr-vx.github.io/rayDebug-820x.png 820w,
+https://cr-vx.github.io/rayDebug-1170x.png 1170w,
+https://cr-vx.github.io/rayDebug-1520x.png 1520w,
+https://cr-vx.github.io/rayDebug-1920x.png 1920w" alt="New ray debug feature in latest Unity version.">
+</picture>
+
+
+
 
           </article>
 
