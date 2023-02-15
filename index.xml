@@ -13,8 +13,8 @@
       <pubDate>Mon, 06 Feb 2023 22:38:02 +0200</pubDate>
       
       <guid>https://cr-vx.github.io/blog/fb/steamworksdevtool/</guid>
-      <description>Here&amp;rsquo;s sample of a small dev tool, I created to test the Facepunch&amp;rsquo;s Steamworks wrapper.
-It&amp;rsquo;s is only used inside the editor, so it will never end up in the build.
+      <description>Here&amp;rsquo;s sample of a small dev tool I created to test the Facepunch&amp;rsquo;s Steamworks wrapper.
+It&amp;rsquo;s only used inside the editor, so it will never end up in the build.
 📝:This is pretty much the first time I am dealing more with async calls. Which is more than welcome, since I want to get more into backend programming in future. I am aware of the theory when it comes to working with async, but haven&amp;rsquo;t had the opportunity to actually use them that much before.</description>
     </item>
     
@@ -60,7 +60,7 @@ However, the reason for this was understandable. Our projects had to go through 
       <guid>https://cr-vx.github.io/about/</guid>
       <description>I am constantly seeking opportunities to grow and develop, both personally and professionally.
 Here you can find more about my latest work &amp;amp; public projects.
-In my blog, I cover more about my work related to different topics if possible.
+In my blog, I cover more about my work related to different topics.
 While my current focus is on Unity, I have also worked with other major game engines. I am always looking for ways to expand my skills and knowledge, whether it be through experimenting with new tools or seeking out educational resources.</description>
     </item>
     
@@ -72,7 +72,7 @@ While my current focus is on Unity, I have also worked with other major game eng
       <guid>https://cr-vx.github.io/gallery/fb/</guid>
       <description>Your browser does not support the video tag.In this project, my biggest task was to implemented FSM-based* enemy AI.
 The main objective was to create a challenging and enjoyable experience for the player.
-Which required that the enemy AI must be designed to move and shoot intelligently, while also keeping in mind the enemy&amp;rsquo;s low health and the player&amp;rsquo;s long shooting range.
+Which required that the AI must be designed to move and shoot intelligently, while also keeping in mind the enemy&amp;rsquo;s low health and the player&amp;rsquo;s long shooting range.
 You can learn more about the development in my blog &amp;ndash; there&amp;rsquo;s also a post about my time as a scrum master.</description>
     </item>
     

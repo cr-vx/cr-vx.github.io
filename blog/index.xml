@@ -13,8 +13,8 @@
       <pubDate>Mon, 06 Feb 2023 22:38:02 +0200</pubDate>
       
       <guid>https://cr-vx.github.io/blog/fb/steamworksdevtool/</guid>
-      <description>Here&amp;rsquo;s sample of a small dev tool, I created to test the Facepunch&amp;rsquo;s Steamworks wrapper.
-It&amp;rsquo;s is only used inside the editor, so it will never end up in the build.
+      <description>Here&amp;rsquo;s sample of a small dev tool I created to test the Facepunch&amp;rsquo;s Steamworks wrapper.
+It&amp;rsquo;s only used inside the editor, so it will never end up in the build.
 📝:This is pretty much the first time I am dealing more with async calls. Which is more than welcome, since I want to get more into backend programming in future. I am aware of the theory when it comes to working with async, but haven&amp;rsquo;t had the opportunity to actually use them that much before.</description>
     </item>
     
