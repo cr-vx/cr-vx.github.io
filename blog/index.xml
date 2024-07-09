@@ -6,16 +6,16 @@
     <description>Recent content in Posts on cr-vx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 06 Feb 2023 22:38:02 +0200</lastBuildDate><atom:link href="https://cr-vx.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jul 2024 15:04:14 +0300</lastBuildDate><atom:link href="https://cr-vx.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Steamworks Dev Tool</title>
-      <link>https://cr-vx.github.io/blog/fb/steamworksdevtool/</link>
-      <pubDate>Mon, 06 Feb 2023 22:38:02 +0200</pubDate>
+      <title>Bkk Internship</title>
+      <link>https://cr-vx.github.io/blog/bkk/</link>
+      <pubDate>Tue, 09 Jul 2024 15:04:14 +0300</pubDate>
       
-      <guid>https://cr-vx.github.io/blog/fb/steamworksdevtool/</guid>
-      <description>Here&amp;rsquo;s sample of a small dev tool I created to test the Facepunch&amp;rsquo;s Steamworks wrapper.
-It&amp;rsquo;s only used inside the editor, so it will never end up in the build.
-📝:This is pretty much the first time I am dealing more with async calls. Which is more than welcome, since I want to get more into backend programming in future. I am aware of the theory when it comes to working with async, but haven&amp;rsquo;t had the opportunity to actually use them that much before.</description>
+      <guid>https://cr-vx.github.io/blog/bkk/</guid>
+      <description>I had a 5-month long internship at a medium-sized, double-A game dev company in Bangkok, where I ended up working primarily on the mobile development.
+Overall, the experience was great, and I very much enjoyed my time in Bangkok, even though mobile game development is not something I&amp;rsquo;ve done too much of.
+I spent the first week getting familiar with the codebase, project plan and the other devs on my team.</description>
     </item>
     
     <item>
@@ -25,9 +25,8 @@ It&amp;rsquo;s only used inside the editor, so it will never end up in the build
       
       <guid>https://cr-vx.github.io/blog/fb/abouttheai/</guid>
       <description>In this post I talk about the design and implementation of the enemy AI.
-Why FSM Our project had a tight 9 week deadline, the main goal being a released product on Steam by the end of the semester and something that we can be proud of.
-Therefore after knowing all critical challenges, and considerations of the AI&amp;rsquo;s required functionality.
-I decided that basic FSM is the best option due to its simplicity.</description>
+Why FSM We had a tight 9-week deadline to release the project. The main goals were to have a product released on Steam by the end of the semester and to create something that we could be proud of.
+After considering all the critical challenges and the AI&amp;rsquo;s required functionality, I decided that a basic Finite State Machine (FSM) was the best option due to its simplicity.</description>
     </item>
     
     <item>
@@ -47,9 +46,8 @@ Leading Agile At the start of the project, the question arose of who wanted to b
       <pubDate>Sun, 01 Jan 2023 06:33:52 +0000</pubDate>
       
       <guid>https://cr-vx.github.io/blog/fb/fbdesign/</guid>
-      <description>In this post I am talking about the key rules we came up with when starting the project.
-Quick Background When I joined the project there was already a demo of the game with GitHub setup. The code was code dirty due to being written in one week of time.
-However, the reason for this was understandable. Our projects had to go through a super short prototyping phase. In just one week, we had to come up with an idea and build a prototype to present to others for voting on which ideas should be pursued for further development.</description>
+      <description>In this post, I am talking about the key rules we came up with when starting the project.
+Quick Background When I joined the project, there was already a demo of the game with GitHub set up. The code was messy due to being written in just one week. However, there was a good reason for this: our projects had to go through a super short prototyping phase. In just one week, we had to come up with an idea and build a prototype.</description>
     </item>
     
   </channel>

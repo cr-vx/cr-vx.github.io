@@ -148,23 +148,22 @@ https://cr-vx.github.io/logoSmall-96x.png 96w" alt="Home">
             </div>
 
           <article class="entry-content">
-            <p><strong>In this post I am talking about the key rules we came up with when starting the project.</strong></p>
+            <p><strong>In this post, I am talking about the key rules we came up with when starting the project.</strong></p>
 <h2 id="quick-background">Quick Background</h2>
-<p>When I joined the project there was already a demo of the game with GitHub setup. The code was code dirty due to being written in one week of time.<br>
-However, the reason for this was understandable. Our projects had to go through a super short prototyping phase. In just one week, we had to come up with an idea and build a prototype to present to others for voting on which ideas should be pursued for further development.</p>
+<p>When I joined the project, there was already a demo of the game with GitHub set up. The code was messy due to being written in just one week. However, there was a good reason for this: our projects had to go through a super short prototyping phase. In just one week, we had to come up with an idea and build a prototype. We then presented these to others, who voted on which ideas should be pursued for further development.</p>
 <h2 id="coming-up-with-the-rules">Coming Up With The Rules</h2>
 <h3 id="git">Git</h3>
-<p>After joining the project, I immediately evaluated the situation.<br>
-I took it upon myself to come up with a GitHub flow for us since it seemed like I am the most proficient with it. Then I planed how we are going to go about with the branches.<br>
-Since there&rsquo;s always a problem with the people on the art side not being too familiar with git.So, a branch just for them was the first one created.
-I told the artist that this is the only branch they need, and the only thing they need to do is push their material there.<br>
-I would then handle all the merging into Dev myself.</p>
-<p><em><strong>This is not intended to disrespect or diminish the value of artists on the team. Rather, it is meant to benefit everyone and reduce stress for artists, who often worry about accidentally causing problems when it comes to source control. By implementing this approach, we hope to give artists greater peace of mind.</strong></em></p>
-<p>Then I created <code>Dev</code> and <code>Build</code> branches for other developers and took primary responsibility for managing and resolving any issues with them.
-I was the go-to guy if any issues arouse.</p>
+<p>After joining the project, I evaluated the situation. I took it upon myself to come up with a GitHub flow for us since it seemed like I am the most proficient with it.<br>
+We planned how we are going to go about with the git branches.<br>
+Since there&rsquo;s usually a problem with the people on the art side not being too familiar with git. We decided that each member has their own branch, this was easy solution due to our team size being only six.<br>
+I told the artists that this is the only branch they need, and the only thing they need to do is push their material there.<br>
+I would then handle all the merging into Dev branch myself.</p>
+<p><em>This is not intended to disrespect or diminish the value of artists on the team. Rather, it is meant to benefit everyone and reduce stress for artists, who often worry about accidentally causing problems when it comes to source control. By implementing this approach, we hope to give artists greater peace of mind.</em></p>
+<p>Besides each member having their own branch, we also had the normal expected <code>Dev</code>, <code>Build</code> and <code>feature-x</code> branches.<br>
+I took primary responsibility for managing and resolving any issues with git.</p>
 <h4 id="cicd">CI/CD</h4>
 <p>I wanted to create a CI/CD pipeline to create builds after pushes to the <code>Build</code> branch.<br>
-I had already played around with this feature on GitHub and tested that it works. However, there was probably going to be some issues related to licenses and policy since our code was under a organization and we didn&rsquo;t even have <code>LFS</code> support. So I didn&rsquo;t pursue this further, and focused on the development instead.</p>
+I had already played around with this feature on GitHub and tested that it works. However, there was probably going to be some issues related to licenses and policy since our code was under an organization and we didn&rsquo;t even have <code>LFS</code> support. So, I didn&rsquo;t pursue this further, and focused on the development instead.</p>
 <h3 id="rules-for-coding">Rules for Coding</h3>
 <p>Before starting our actual development of the project, we discussed about some principles we should follow when it comes to the code.<br>
 Them being:</p>
@@ -187,18 +186,17 @@ Them being:</p>
 </li>
 </ul>
 <h4 id="indentation--styling-overall">Indentation &amp; Styling Overall</h4>
-<p>To address the problem with potential code style mismatches, tools like <a href="https://editorconfig.org">EditorConfig</a> could be used with plenty of others that match the styling before pushing the code.<br>
-However, in my experience, most IDEs already use the Allman style by default for C#, so there were no issues with enforcing a particular style.<br>
-Personally, I prefer <a href="https://en.wikipedia.org/wiki/Indentation_style#Variant:_1TBS_(OTBS)">1TBS (OTBS: One True Brace Style)</a> which places the first curly brace on the same line as the function, followed by a space.<br>
-There was some debate about this style within the team, but I made sure to use the same style as the original code when working on others&rsquo; code.<br>
-Fortunately, my IDE (<a href="https://www.jetbrains.com/rider/">Rider</a>) helps with this by recognizing the styling used in the code.</p>
+<p>To address the problem with potential code style mismatches, tools like <a href="https://editorconfig.org">EditorConfig</a> can be used along with various other tools.
+However, in my experience, most IDEs already use the Allman style by default for C#, so there were no issues with enforcing a particular style.</p>
+<p>Personally, I prefer <a href="https://en.wikipedia.org/wiki/Indentation_style#Variant:_1TBS_(OTBS)">1TBS (OTBS: One True Brace Style)</a> which places the first curly brace on the same line as the function, followed by an indentation on the new line.<br>
+There was some debate about this style within the team, but I made sure to use the same style as the original code when working on others&rsquo; code. Fortunately, my IDE (<a href="https://www.jetbrains.com/rider/">Rider</a>) helped with this by recognizing the style already used in the code.</p>
 <h4 id="documentation">Documentation</h4>
-<p>Earlier during the semester while working on my personal projects, I found out about how to use the XML comments for C#.<br>
-I shared this information with my team and introduced them to some tools that could assist us in writing clear and concise comments.
+<p>Earlier during the semester while working on my personal projects, I found out about how to use the XML comments for C#.</p>
+<p>I shared this information with my team and introduced them to some tools that could assist us in writing clear and concise comments.
 We decided to use XML comments as our primary method of documentation for situations where we needed more detailed explanations than simple one-line comments could provide.</p>
-<p>One of the main problems of using regular comments is that you cannot see them from other scripts when using a public function for example. This can be an issue when trying to remember or use code that didn&rsquo;t write code.<br>
-I found our approach to commenting, using XML comments, to be extremely useful because it provides helpful tooltips when hovering over functions. I&rsquo;m surprised that this method of commenting is not more widely taught by the people creating tutorials.</p>
-<p>Example below &ndash; This was used to implement a simple roaming function for the AI. This is achieved by feeding it a randomized distance value, based on the AI&rsquo;s min &amp; max roaming distance given by the game designer.</p>
+<p>One of the main problems of using regular comments is that you cannot see them from other scripts when using a public function for example. This can be an issue when trying to remember parts of code, or use code that you didn&rsquo;t write.</p>
+<p>I found our approach to commenting, using the XML comments, to be extremely useful because it provides helpful tooltips when hovering over functions. I&rsquo;m surprised that this method of commenting is not more widely taught by the people creating tutorials.</p>
+<p>Example below &ndash; This was used to implement a simple roaming function for the AI. This was achieved by feeding it a randomized distance value, based on the AI&rsquo;s min and max roaming distance given by the game designer.</p>
 
 
 
@@ -266,20 +264,21 @@ https://cr-vx.github.io/docpopup-1920x.png 1920w" alt="Example of the documentat
 
 
 <h4 id="principles">Principles</h4>
-<p>Everyone in my team was familiar with SOLID and OOP, so we followed these by default.</p>
-<p>I&rsquo;ve heard about a rule that &ldquo;once you repeat something more than 2-3 times, consider an interface.&rdquo; However, in our case where we only had 9-weeks of time for development, I told my team that we should probably keep this in mind, and not spend time creating interfaces for things that only require 1 copy &amp; paste.</p>
+<p>Everyone on my team were familiar with SOLID and OOP, so we followed these principles by default.</p>
+<p>I&rsquo;ve heard about a rule that &ldquo;once you repeat something more than 2-3 times, consider an interface.&rdquo; However, in our case, where we only had 9 weeks of time for development, I told my team that we should probably keep this in mind and not spend time creating interfaces for things that only require one copy and paste.</p>
 <p>Personally, when writing my own code there are few principles I follow the most.</p>
-<ol>
-<li>Single Responsibility - whenever it seems fit.<br>
-I have always found this to be useful, and it bothers me writing everything under the same script.</li>
+<ul>
+<li>Single Responsibility<br>
+&ndash; Whenever it seems fit.<br>
+&ndash; It bothers me writing everything under the same script or function.</li>
 <li>Interface Segregation Principle<br>
-I like to keep my code decoupled as possible.</li>
+&ndash; I like to keep my code decoupled as possible.</li>
 <li>Encapsulation<br>
-I&rsquo;m always mindful of the scope</li>
+&ndash; I&rsquo;m always mindful of the scope.</li>
 <li>KISS (Keep It Simple, Stupid)<br>
-After reading some over engineered code and even writing some, you learn to appreciate this, and so will your teammates.</li>
-</ol>
-<p>I am always trying to learn more to achieve better code quality and to see what other people in the industry think about.</p>
+&ndash; After reading some over engineered code and even writing some, you learn to appreciate this, and so will your teammates.</li>
+</ul>
+<p>Generally, I am always trying to learn more to achieve better code quality, and I like to see what other people in the industry think about when it comes to &ldquo;Clean code&rdquo;.</p>
 
           </article>
 
