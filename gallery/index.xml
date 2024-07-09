@@ -13,10 +13,10 @@
       <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://cr-vx.github.io/gallery/fb/</guid>
-      <description>Your browser does not support the video tag.In this project, my biggest task was to implemented FSM-based* enemy AI.
+      <description>Your browser does not support the video tag.In this project, my biggest task was to implement FSM-based enemy AI.
 The main objective was to create a challenging and enjoyable experience for the player.
-Which required that the AI must be designed to move and shoot intelligently, while also keeping in mind the enemy&amp;rsquo;s low health and the player&amp;rsquo;s long shooting range.
-You can learn more about the development in my blog &amp;ndash; there&amp;rsquo;s also a post about my time as a scrum master.</description>
+This required designing AI that moves and shoots intelligently, while also tracking health and reacting to the player&amp;rsquo;s long shooting range.
+You can learn more about the development in my blog.</description>
     </item>
     
   </channel>
