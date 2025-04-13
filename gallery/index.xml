@@ -6,18 +6,17 @@
     <description>Recent content in Galleries on cr-vx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 09 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cr-vx.github.io/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cr-vx.github.io/gallery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fingerbang: All Bullets Pointin&#39;</title>
       <link>https://cr-vx.github.io/gallery/fb/</link>
       <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://cr-vx.github.io/gallery/fb/</guid>
-      <description>Your browser does not support the video tag.In this project, my biggest task was to implement FSM-based enemy AI.
+      <description>Your browser does not support the video tag.In this project, my biggest task was to implement the enemy AI.
 The main objective was to create a challenging and enjoyable experience for the player.
 This required designing AI that moves and shoots intelligently, while also tracking health and reacting to the player&amp;rsquo;s long shooting range.
 You can learn more about the development in my blog.</description>
     </item>
-    
   </channel>
 </rss>

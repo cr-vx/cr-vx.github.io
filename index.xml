@@ -6,74 +6,74 @@
     <description>Recent content on cr-vx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 09 Jul 2024 15:04:14 +0300</lastBuildDate><atom:link href="https://cr-vx.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Apr 2025 03:00:54 +0300</lastBuildDate>
+    <atom:link href="https://cr-vx.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bkk Internship</title>
+      <title>Boot.dev Grind</title>
+      <link>https://cr-vx.github.io/blog/bootdev/</link>
+      <pubDate>Fri, 11 Apr 2025 03:00:54 +0300</pubDate>
+      <guid>https://cr-vx.github.io/blog/bootdev/</guid>
+      <description>For the past year, I&amp;rsquo;ve been working on the courses and projects provided by Boot.dev.
+You can see my page from here.
+What kicked off this journey was my curiosity about what it’s really like to work as a backend developer. The job market was pretty rough at the time, so I figured, why not take a “sabbatical” and just focus on my own projects?
+Diving into databases and backend work was way more fun than I expected, especially after years glued to Unity.</description>
+    </item>
+    <item>
+      <title>BKK Internship</title>
       <link>https://cr-vx.github.io/blog/bkk/</link>
       <pubDate>Tue, 09 Jul 2024 15:04:14 +0300</pubDate>
-      
       <guid>https://cr-vx.github.io/blog/bkk/</guid>
       <description>I had a 5-month long internship at a medium-sized, double-A game dev company in Bangkok, where I ended up working primarily on the mobile development.
 Overall, the experience was great, and I very much enjoyed my time in Bangkok, even though mobile game development is not something I&amp;rsquo;ve done too much of.
 I spent the first week getting familiar with the codebase, project plan and the other devs on my team.</description>
     </item>
-    
     <item>
       <title>About the AI in FB: All Bullets Pointin&#39;</title>
       <link>https://cr-vx.github.io/blog/fb/abouttheai/</link>
       <pubDate>Sun, 01 Jan 2023 06:35:14 +0000</pubDate>
-      
       <guid>https://cr-vx.github.io/blog/fb/abouttheai/</guid>
       <description>In this post I talk about the design and implementation of the enemy AI.
 Why FSM We had a tight 9-week deadline to release the project. The main goals were to have a product released on Steam by the end of the semester and to create something that we could be proud of.
 After considering all the critical challenges and the AI&amp;rsquo;s required functionality, I decided that a basic Finite State Machine (FSM) was the best option due to its simplicity.</description>
     </item>
-    
     <item>
       <title>Scrum Mastering</title>
       <link>https://cr-vx.github.io/blog/fb/scrum/</link>
       <pubDate>Sun, 01 Jan 2023 06:35:14 +0000</pubDate>
-      
       <guid>https://cr-vx.github.io/blog/fb/scrum/</guid>
-      <description>⚠️This is not the right place to learn about what Scrum is. This only covers my experience as a Scrum Master for a small group.
+      <description>&amp;#x26a0;&amp;#xfe0f;This is not the right place to learn about what Scrum is. This only covers my experience as a Scrum Master for a small group.
 One key thing to note in this project is the overlap in roles; our product owner was also one of the developers, which made the project run smoothly. Due to them being able to closely follow the progress and this definitely helps with communication.
 Leading Agile At the start of the project, the question arose of who wanted to be the Scrum Master.</description>
     </item>
-    
     <item>
       <title>Project Planning &amp; Rules for FB: All Bullets Pointin&#39;</title>
       <link>https://cr-vx.github.io/blog/fb/fbdesign/</link>
       <pubDate>Sun, 01 Jan 2023 06:33:52 +0000</pubDate>
-      
       <guid>https://cr-vx.github.io/blog/fb/fbdesign/</guid>
       <description>In this post, I am talking about the key rules we came up with when starting the project.
 Quick Background When I joined the project, there was already a demo of the game with GitHub set up. The code was messy due to being written in just one week. However, there was a good reason for this: our projects had to go through a super short prototyping phase. In just one week, we had to come up with an idea and build a prototype.</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://cr-vx.github.io/about/</link>
       <pubDate>Sat, 10 Dec 2022 23:39:48 +0200</pubDate>
-      
       <guid>https://cr-vx.github.io/about/</guid>
-      <description>I am constantly seeking opportunities to grow and develop, both personally and professionally.
-Here you can find more about my latest work and potential public projects that I can talk about.
+      <description>A developer with a foundation in game development. Built projects in Unity for PC and mobile platforms, spanning genres like gamification, casual games, and shooter.
+Experienced in backend development and low-level programming.
+Worked internationally in diverse tech environments
+Holds an academic background in game development.
 In my blog, I discuss a variety of topics in software development.
-Exp Most of my experience comes from working on different Unity projects using C#.
-Lately, I&amp;rsquo;ve been getting more into backend development and low-level programming, spending my time working with Go and C.</description>
+Languages: Tools &amp;amp; Software: Released Games Latest game on Steam made with Unity </description>
     </item>
-    
     <item>
       <title>Fingerbang: All Bullets Pointin&#39;</title>
       <link>https://cr-vx.github.io/gallery/fb/</link>
       <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://cr-vx.github.io/gallery/fb/</guid>
-      <description>Your browser does not support the video tag.In this project, my biggest task was to implement FSM-based enemy AI.
+      <description>Your browser does not support the video tag.In this project, my biggest task was to implement the enemy AI.
 The main objective was to create a challenging and enjoyable experience for the player.
 This required designing AI that moves and shoots intelligently, while also tracking health and reacting to the player&amp;rsquo;s long shooting range.
 You can learn more about the development in my blog.</description>
     </item>
-    
   </channel>
 </rss>
